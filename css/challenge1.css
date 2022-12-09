@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: hsl(30, 38%, 92%);
+}
+
+#container{
+	display: flex;
+	height: 450px;
+	width: 600px;
+	margin: 10% auto auto auto;
+}
+
+.picture{
+	width: 300px;
+	height: 450px;
+}
+
+.image{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	height: 450px;
+	background-color: white;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+h3{
+	margin: auto 40px 10px 40px;
+	font: 700 14px Montserrat;
+	letter-spacing: 5px;
+}
+
+h1{
+	margin: 10px 40px;
+	font: 700 34px Fraunces;
+}
+
+p1{
+	margin: 10px 40px;
+	font: 700 14px Montserrat;
+	line-height: 170%;
+}
+
+.money{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+p2{
+	margin: 10px 10px 10px 40px;
+	font:700 34px Fraunces;
+	color: hsl(158, 36%, 37%);
+}
+
+p3{
+	font-size: 14px;
+	text-decoration: line-through;
+	margin: 10px 40px 10px 10px;
+	font-family: Montserrat;
+	font-weight: 700;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(158, 36%, 37%);
+	height: 50px;
+	width: 230px;
+	border: 0;
+	border-radius: 10px;
+	margin: 10px auto auto;
+}
+
+p4{
+	margin-left: 10px;
+	font: bold 14px white;
+	color: white;
+}
